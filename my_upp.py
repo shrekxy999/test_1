@@ -32,3 +32,7 @@ def initUI(self):
 self.hello_text = Label(txt_hello)
 self. instruction = QLabel(txt_instruction)
 self.button = PushButton(txt_next)
+
+def connects (self) :
+self.btn_next.clicked.connect(self.next_click)
+def next_click(self) :
